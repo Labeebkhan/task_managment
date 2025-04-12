@@ -25,3 +25,42 @@ Prerequisites
 Flutter SDK installed
 
 A code editor like VS Code or Android Studio
+
+Installation
+Clone the repo:
+git clone https://github.com/Labeebkhan/task_managment.git
+cd task_managment
+
+Install dependencies:
+flutter pub get
+
+Run the app:
+flutter run
+
+🧠 How It Works
+Task Model
+Each task is an object with a title and a isDone boolean flag.
+
+Local Storage
+Tasks are stored locally using SharedPreferences by serializing them to JSON strings.
+
+UI
+The main screen displays a list of tasks using a ListView. Tasks can be added, toggled as complete, and removed individually or by swiping.
+
+🧩 Folder Structure
+lib/
+├── main.dart         # App entry point and UI
+
+📦 Dependencies
+Flutter
+shared_preferences
+
+🖼️ Screenshot
+(You can insert a screenshot here showing the UI)
+
+✍️ Author
+Your Name – @yourusername
+
+📄 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
