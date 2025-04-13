@@ -1,16 +1,73 @@
-# task_managment
+📝 Task Manager App
+A simple and lightweight Task Management App built using Flutter. This app allows users to:
 
-A new Flutter project.
+✅ Add new tasks
 
-## Getting Started
+🗑️ Remove tasks
 
-This project is a starting point for a Flutter application.
+☑️ Mark tasks as completed
 
-A few resources to get you started if this is your first Flutter project:
+💾 Save tasks persistently using SharedPreferences
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📱 Features
+Beautiful and clean UI with Material Design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Add tasks via dialog input
+
+Toggle task status with a checkbox
+
+Swipe to delete tasks
+
+Persistent storage using shared_preferences — your tasks are saved even after the app is closed
+
+
+
+https://github.com/user-attachments/assets/f7fd7423-863e-4f2d-827d-63a9d64e9821
+
+
+
+
+🚀 Getting Started
+Prerequisites
+Flutter SDK installed
+
+A code editor like VS Code or Android Studio
+
+Installation
+Clone the repo:
+git clone https://github.com/Labeebkhan/task_managment.git
+cd task_managment
+
+Install dependencies:
+flutter pub get
+
+Run the app:
+flutter run
+
+🧠 How It Works
+Task Model
+Each task is an object with a title and a isDone boolean flag.
+
+Local Storage
+Tasks are stored locally using SharedPreferences by serializing them to JSON strings.
+
+UI
+The main screen displays a list of tasks using a ListView. Tasks can be added, toggled as complete, and removed individually or by swiping.
+
+🧩 Folder Structure
+lib/
+├── main.dart         # App entry point and UI
+
+📦 Dependencies
+Flutter
+shared_preferences
+
+🖼️ Screenshot
+(You can insert a screenshot here showing the UI)
+
+✍️ Author
+Your Name – @yourusername
+
+📄 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
