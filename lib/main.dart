@@ -128,13 +128,13 @@ class _TaskHomePageState extends State<TaskHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Task Manager"),
+        title: Center(child: const Text("Task Management")),
         backgroundColor: Colors.orange,
         actions: [
-          IconButton(
-            icon: const Icon(Icons.add),
-            onPressed: _showAddTaskDialog,
-          ),
+          // IconButton(
+          //   icon: const Icon(Icons.add),
+          //   onPressed: _showAddTaskDialog,
+          // ),
         ],
       ),
       body:
