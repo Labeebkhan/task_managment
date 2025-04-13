@@ -20,6 +20,13 @@ Swipe to delete tasks
 
 Persistent storage using shared_preferences — your tasks are saved even after the app is closed
 
+
+
+https://github.com/user-attachments/assets/f7fd7423-863e-4f2d-827d-63a9d64e9821
+
+
+
+
 🚀 Getting Started
 Prerequisites
 Flutter SDK installed
